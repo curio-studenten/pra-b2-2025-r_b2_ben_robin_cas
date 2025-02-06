@@ -12,8 +12,6 @@
 body, html{
   margin: 0;
   padding: 0;
-
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #FCFCFC;
 }
 
@@ -205,13 +203,12 @@ footer{
 */
 @font-face {
   font-family: 'Heartbeat';
-  src:  url('../fonts/heartbeat.woff2') format('woff2'), /* Beste ondersteuning */
-        url('../fonts/heartbeat.woff') format('woff'),   /* Back-up voor oudere browsers */
-        url('../fonts/heartbeat.ttf') format('truetype'); /* Laatste back-up */
-  font-weight: normal;
-  font-style: normal;
+  src:  url('../fonts/heartbeat.eot') format('eot'),
+        url('../fonts/heartbeat.otf') format('otf'),
+        url('../fonts/heartbeat.woff') format('woff'),
+        url('../fonts/heartbeat.svg') format('svg'),
+        url('../fonts/heartbeat.ttf') format('ttf');
 }
-
 
 /*
   Animations for fading in logo on page load
