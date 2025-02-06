@@ -155,8 +155,6 @@ button{
   height: 64px;
 }
 
-.sidy-by-side{
-}
 
 .description{
   flex: 1;
@@ -201,7 +199,8 @@ footer{
   }
 
   .row{
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
   }
   .sidy-by-side{
     flex-direction: column;
@@ -251,4 +250,7 @@ to   { opacity: 1; }
 @-o-keyframes fadein {
 from { opacity: 0; }
 to   { opacity: 1; }
+}
+.row h2{
+  text-shadow: 0 0 0 #FCFCFC, -1px -1px 0 #FCFCFC, 1px -1px 0 #FCFCFC, -1px 1px 0 #FCFCFC, 1px 1px 0 #FCFCFC;
 }
