@@ -156,8 +156,6 @@ button{
   height: 64px;
 }
 
-.sidy-by-side{
-}
 
 .description{
   flex: 1;
@@ -200,16 +198,16 @@ footer{
     margin: 0 auto;
     width: 256px;
   }
-
-  .row{
-    flex-direction: column;
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
   }
-  .sidy-by-side{
-    flex-direction: column;
-    align-items: center;
+  .row article {
+    flex: 1;
   }
-}
-
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
 */
@@ -253,4 +251,7 @@ to   { opacity: 1; }
 @-o-keyframes fadein {
 from { opacity: 0; }
 to   { opacity: 1; }
+}
+.row h2{
+  text-shadow: 0 0 0 #FCFCFC, -1px -1px 0 #FCFCFC, 1px -1px 0 #FCFCFC, -1px 1px 0 #FCFCFC, 1px 1px 0 #FCFCFC;
 }
