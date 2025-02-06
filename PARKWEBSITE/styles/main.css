@@ -172,7 +172,7 @@ footer{
 }
 
 .hidden-on-lg{
-  display: none;
+  display:  block;
 }
 .hidden-on-sm{
   display: block;
@@ -185,9 +185,10 @@ footer{
 */
 
 @media (max-width: 480px) {
-
+  .hidden-on-sm {
+    display: none; 
+  }
 }
-
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -254,4 +255,4 @@ to   { opacity: 1; }
 }
 .row h2{
   text-shadow: 0 0 0 #FCFCFC, -1px -1px 0 #FCFCFC, 1px -1px 0 #FCFCFC, -1px 1px 0 #FCFCFC, 1px 1px 0 #FCFCFC;
-}
+}}
