@@ -147,6 +147,7 @@ button{
   border: 2px solid #FCFCFC;
   color: #000000;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .payment-option{
@@ -195,17 +196,16 @@ footer{
     margin: 0 auto;
     width: 256px;
   }
-
-  .row{
+  .row {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
   }
-  .sidy-by-side{
-    flex-direction: column;
-    align-items: center;
+  .row article {
+    flex: 1;
   }
-}
-
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
 */
@@ -251,4 +251,4 @@ to   { opacity: 1; }
 }
 .row h2{
   text-shadow: 0 0 0 #FCFCFC, -1px -1px 0 #FCFCFC, 1px -1px 0 #FCFCFC, -1px 1px 0 #FCFCFC, 1px 1px 0 #FCFCFC;
-}
+}}
