@@ -149,6 +149,7 @@ button{
   border: 2px solid #FCFCFC;
   color: #000000;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .payment-option{
@@ -214,12 +215,13 @@ footer{
 */
 @font-face {
   font-family: 'Heartbeat';
-  src:  url('fonts/heartbeat.eot') format('eot'),
-        url('fonts/heartbeat.otf') format('otf'),
-        url('fonts/heartbeat.woff') format('woff'),
-        url('fonts/heartbeat.svg') format('svg'),
-        url('fonts/heartbeat.ttf') format('ttf');
+  src:  url('../fonts/heartbeat.woff2') format('woff2'), /* Beste ondersteuning */
+        url('../fonts/heartbeat.woff') format('woff'),   /* Back-up voor oudere browsers */
+        url('../fonts/heartbeat.ttf') format('truetype'); /* Laatste back-up */
+  font-weight: normal;
+  font-style: normal;
 }
+
 
 /*
   Animations for fading in logo on page load
