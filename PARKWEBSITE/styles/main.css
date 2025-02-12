@@ -325,6 +325,37 @@ to   { opacity: 1; }
 .emphasize button:hover {
   background-color: #218838;
 }
+.side-by-side {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 30px; 
+}
+
+.payment-option {
+  flex: 1 1 22%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  background: none;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .side-by-side {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .payment-option {
+    flex: 1 1 200%;
+  }
+}
+
+
+
 
 
 
