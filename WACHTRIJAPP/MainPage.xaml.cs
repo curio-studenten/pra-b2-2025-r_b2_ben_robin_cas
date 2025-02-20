@@ -191,5 +191,10 @@ namespace BugsOfHorrorXAML
 
             return "";
         }
+
+        private void LabelTitel_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
